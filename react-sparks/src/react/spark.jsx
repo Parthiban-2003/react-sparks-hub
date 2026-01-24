@@ -1,3 +1,4 @@
+import ApiCallFetch from "../APICall/apiCallFetch";
 import InputText from "../InputBoxDisplayText/inputText";
 import Counter from "../counter/counter";
 import Parent from "../propsValues/parent";
@@ -13,6 +14,7 @@ function Spark()
             <Toogle/> <hr />
             <InputText/> <hr />
             <Parent/> <hr />
+            <ApiCallFetch/> <hr />
         </>
     )
 }
