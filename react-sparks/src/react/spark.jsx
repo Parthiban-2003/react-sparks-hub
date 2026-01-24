@@ -1,3 +1,4 @@
+import ApiCallAsync from "../APICall/apiCallAsync";
 import ApiCallFetch from "../APICall/apiCallFetch";
 import InputText from "../InputBoxDisplayText/inputText";
 import Counter from "../counter/counter";
@@ -15,6 +16,7 @@ function Spark()
             <InputText/> <hr />
             <Parent/> <hr />
             <ApiCallFetch/> <hr />
+            <ApiCallAsync/> <hr />
         </>
     )
 }
