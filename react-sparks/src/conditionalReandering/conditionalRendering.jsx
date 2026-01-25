@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Toogle()
+function conditionalRendering()
 {
     const [toogle,setToogle] = useState(false);
 
@@ -35,4 +35,4 @@ function Toogle()
     )
 }
 
-export default Toogle;
+export default conditionalRendering;
