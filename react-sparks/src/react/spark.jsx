@@ -5,7 +5,8 @@ import Counter from "../counter/counter";
 import ListRenderening from "../listRenderning/listsRender";
 import Parent from "../propsValues/parent";
 import TodoApp from "../todo/todo";
-import conditionalRendering from "../conditionalReandering/conditionalRendering";
+import ConditionalRendering from "../conditionalReandering/conditionalRendering";
+import LoginForm from "../LoginFormErroMessage/loginForm";
 
 function Spark()
 {
@@ -13,12 +14,13 @@ function Spark()
         <>
             <Counter/> <hr />
             <TodoApp/> <hr />
-            <conditionalRendering/> <hr />
+            <ConditionalRendering /> <hr />
             <InputText/> <hr />
             <Parent/> <hr />
             <ApiCallFetch/> <hr />
             <ApiCallAsync/> <hr />
             <ListRenderening/> <hr /> 
+            <LoginForm/> <hr />
         </>
     )
 }
