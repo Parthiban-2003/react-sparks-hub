@@ -2,9 +2,10 @@ import ApiCallAsync from "../APICall/apiCallAsync";
 import ApiCallFetch from "../APICall/apiCallFetch";
 import InputText from "../InputBoxDisplayText/inputText";
 import Counter from "../counter/counter";
+import ListRenderening from "../listRenderning/listsRender";
 import Parent from "../propsValues/parent";
 import TodoApp from "../todo/todo";
-import Toogle from "../toogleText/toogle";
+import conditionalRendering from "../conditionalReandering/conditionalRendering";
 
 function Spark()
 {
@@ -12,11 +13,12 @@ function Spark()
         <>
             <Counter/> <hr />
             <TodoApp/> <hr />
-            <Toogle/> <hr />
+            <conditionalRendering/> <hr />
             <InputText/> <hr />
             <Parent/> <hr />
             <ApiCallFetch/> <hr />
             <ApiCallAsync/> <hr />
+            <ListRenderening/> <hr /> 
         </>
     )
 }
