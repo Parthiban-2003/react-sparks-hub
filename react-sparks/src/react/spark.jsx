@@ -8,19 +8,18 @@ import TodoApp from "../todo/todo";
 import ConditionalRendering from "../conditionalReandering/conditionalRendering";
 import LoginForm from "../LoginFormErroMessage/loginForm";
 
-function Spark()
-{
-    return(
+function Spark() {
+    return (
         <>
-            <Counter/> <hr />
-            <TodoApp/> <hr />
+            <Counter /> <hr />
+            <TodoApp /> <hr />
             <ConditionalRendering /> <hr />
-            <InputText/> <hr />
-            <Parent/> <hr />
-            <ApiCallFetch/> <hr />
-            <ApiCallAsync/> <hr />
-            <ListRenderening/> <hr /> 
-            <LoginForm/> <hr />
+            <InputText /> <hr />
+            <Parent /> <hr />
+            <ApiCallFetch /> <hr />
+            <ApiCallAsync /> <hr />
+            <ListRenderening /> <hr />
+            <LoginForm /> <hr />
         </>
     )
 }
