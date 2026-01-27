@@ -1,5 +1,5 @@
-import './App.css'
-import Spark from './react/spark'
+import './App.css';
+import Spark from './react/spark';
 
 function App() {
 
