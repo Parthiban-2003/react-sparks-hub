@@ -7,6 +7,7 @@ import Parent from "../propsValues/parent";
 import TodoApp from "../todo/todo";
 import ConditionalRendering from "../conditionalReandering/conditionalRendering";
 import LoginForm from "../LoginFormErroMessage/loginForm";
+import ReducersHook from "../ReduerHooks/reducersHook";
 
 function Spark() {
     return (
@@ -20,6 +21,7 @@ function Spark() {
             <ApiCallAsync /> <hr />
             <ListRenderening /> <hr />
             <LoginForm /> <hr />
+            <ReducersHook /> <hr />
         </>
     )
 }
