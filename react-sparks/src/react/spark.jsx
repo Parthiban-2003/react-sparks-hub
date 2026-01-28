@@ -8,6 +8,7 @@ import TodoApp from "../todo/todo";
 import ConditionalRendering from "../conditionalReandering/conditionalRendering";
 import LoginForm from "../LoginFormErroMessage/loginForm";
 import ReducersHook from "../ReduerHooks/reducersHook";
+import SearchFilter from "../searchFilter/searchFilter";
 
 function Spark() {
     return (
@@ -22,6 +23,7 @@ function Spark() {
             <ListRenderening /> <hr />
             <LoginForm /> <hr />
             <ReducersHook /> <hr />
+            <SearchFilter /> <hr />
         </>
     )
 }
